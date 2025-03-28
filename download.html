@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dino Dodge Game</title>
+    <meta name="description" content="Download Epic Adventure Game - an action-packed adventure" />
+    <meta name="author" content="Game Studio" />
+    <meta property="og:image" content="/placeholder.svg" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-content">
+          <a href="index.html" class="logo">Dino Dodge Game</a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="download.html" class="active">Download</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Header -->
+      <section class="download-header">
+        <div class="container">
+          <a href="index.html" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            <span>Back to Home</span>
+          </a>
+          
+          <div class="download-title">
+            <h1>Download <span class="highlight">Dino Dodge</span></h1>
+            <p>Follow the steps below to download and install our game on your device.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game Info -->
+      <section class="game-info">
+        <div class="container">
+          <div class="game-card">
+            <div class="game-cover">
+              <img src="mainimg.png" alt="Game Cover">
+            </div>
+            <div class="game-details">
+              <h2>Game Information</h2>
+              
+              <div class="info-grid">
+                <div class="info-item">
+                  <p class="info-label">Name</p>
+                  <p class="info-value">Dino DodgeGame</p>
+                </div>
+                <div class="info-item">
+                  <p class="info-label">Size</p>
+                  <p class="info-value">100 MB</p>
+                </div>
+                <div class="info-item">
+                  <p class="info-label">Game Type</p>
+                  <p class="info-value">Single Player</p>
+                </div>
+                <div class="info-item">
+                  <p class="info-label">Genre</p>
+                  <p class="info-value">Endless Runner</p>
+                </div>
+                <div class="info-item">
+                  <p class="info-label">Version</p>
+                  <p class="info-value">1.2.3</p>
+                </div>
+                <div class="info-item">
+                  <p class="info-label">Last Updated</p>
+                  <p class="info-value">March 20, 2025</p>
+                </div>
+              </div>
+
+              
+              
+              <a href="#" class="btn btn-primary btn-large" id="download-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Game (850 MB)
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download Instructions -->
+        <section class="download-instructions">
+            <div class="container">
+            <h2>Download Instructions</h2>
+            <p class="section-description">Follow these steps to download and install the game on your device.</p>
+            
+            <div class="download-steps">
+                <div class="download-step">
+                <h3>Step 1: Click Download Button</h3>
+                <p>Click the download button to start downloading the game files to your device.</p>
+                </div>
+                <div class="download-step">
+                <h3>Step 2: Install Game Files</h3>
+                <p>Once the download is complete, install the game files on your device.</p>
+                </div>
+                <div class="download-step">
+                <h3>Step 3: Launch the Game</h3>
+                <p>Launch the game and start your epic adventure in the game world.</p>
+                </div>
+            </div>
+            </div>
+
+      <!-- Game Extensions Section -->
+      <section class="game-extensions">
+        <div class="container">
+          <h2>Game Extensions</h2>
+          <p class="section-description">Enhance your gameplay with these official extensions</p>
+          
+         
+        </div>
+      </section>
+
+      <!-- Troubleshooting -->
+        <section class="troubleshooting">
+            <div class="container">
+            <h2>Troubleshooting</h2>
+            <p class="section-description">Having trouble downloading or installing the game? Follow these steps.</p>
+            
+            <div class="troubleshooting-steps">
+                <div class="troubleshooting-step">
+                <h3>Step 1: Check Internet Connection</h3>
+                <p>Make sure you have a stable internet connection to download the game files.</p>
+                </div>
+                <div class="troubleshooting-step">
+                <h3>Step 2: Clear Browser Cache</h3>
+                <p>Clear your browser cache and try downloading the game again.</p>
+                </div>
+                <div class="troubleshooting-step">
+                <h3>Step 3: Disable Ad Blockers</h3>
+                <p>Disable any ad blockers or browser extensions that may interfere with the download process.</p>
+                </div>
+                <div class="troubleshooting-step">
+                <h3>Step 4: Contact Support</h3>
+                <p>If you're still facing issues, contact our support team for assistance.</p>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="download.js"></script>
+  </body>
+</html>
